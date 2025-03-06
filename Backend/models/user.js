@@ -25,7 +25,12 @@ const userSchema = new Schema({
     profilePicture: {
         type: String,
     },
-    location: {
+    city: {
+        type: String,
+        trim: true,
+        required: true,
+    },
+    state: {
         type: String,
         trim: true,
         required: true,

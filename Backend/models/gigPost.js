@@ -16,7 +16,17 @@ const gigSchema = new Schema({
         trim: true,
         required: true,
     },
-    location: {
+    city: {
+        type: String,
+        trim: true,
+        required: true,
+    },
+    state: {
+        type: String,
+        trim: true,
+        required: true,
+    },
+    contactLink: {
         type: String,
         trim: true,
         required: true,
